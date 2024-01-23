@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  transition: all 0.2s linear;
+  transition: none;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ffca58, #e60944, #e0ff58);
+}
+
+main {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 2rem;
+  color: gray;
+  height: 100vh;
+  word-spacing: 5px;
+}
+
+.text .content1 {
+  padding: 3rem;
+  font-size: 3rem;
+  background-color: black;
+  text-transform: uppercase;
+  outline-offset: 1rem;
+  outline: 10px inset purple;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  color: white;
+}
+
+.description {
+  text-align: center;
+  padding: 2rem 5rem;
+  background-color: rgba(245, 230, 230, 0.856);
+  display: block;
+}
+
+.description h2 {
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.clarusway-img {
+  height: 100px;
+}
+
+.content2 {
+  background-color: rgb(54, 54, 54);
+  background-position: 0%;
+  color: white;
+}
+
+.bg-img {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.bg-img {
+  background-image: url(./img/bg.jpg);
+  min-height: 100%;
+}
+
+.section2 {
+  background-image: url(./img/bg2.jpg);
+  min-height: 80%;
+  text-align: center;
+}
+.section3 {
+  background-image: url(./img/bg3.jpg);
+  min-height: 100%;
+}
+
+.section4 {
+  background-image: url(./img/bg4.jpg);
+  min-height: 100%;
+}
